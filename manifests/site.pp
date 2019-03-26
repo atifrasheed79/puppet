@@ -1,6 +1,5 @@
-node default {
-  file {'/root/README':
-    ensure => file,
-    content => 'This is a test of puppet manifest',
-  }
+node default {  
+}
+node 'puppetserver.corp-poc.aws.monash.edu' {
+  include role::master_server
 }
