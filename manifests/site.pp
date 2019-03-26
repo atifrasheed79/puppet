@@ -1,5 +1,5 @@
 node default {  
 }
-node 'puppetserver.corp-poc.aws.monash.edu' {
+node 'server.puppet.traininig' {
   include role::master_server
 }
